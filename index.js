@@ -33,3 +33,11 @@ app.get('/category/:id', (req, res) => {
     console.log(category_news)
   }
 });
+
+app.get('/coursedetails',(req,res)=>{
+  res.send(news)
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
