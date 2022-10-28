@@ -21,3 +21,15 @@ app.get('/coursedetails/:id', (req, res) => {
   const selectedCourse = news.find(n => n._id === id);
   res.send(selectedCourse)
 });
+
+app.get('/category/:id', (req, res) => {
+  const id = req.params.id;
+  if(id==='07'){
+    res.send(news)
+  }
+  else{
+    const category_news=news.filter(n => n.course_id === id);
+    res.send(category_news)
+    console.log(category_news)
+  }
+});
