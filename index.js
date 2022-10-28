@@ -6,3 +6,12 @@ const categories = require('./data/course.json');
 const news = require('./data/coursedetails.json')
 app.use(cors())
 console.log(news)
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+});
+
+
+app.get('/course-categories', (req, res) => {
+  res.send(categories)
+});
