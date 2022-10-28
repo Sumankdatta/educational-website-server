@@ -1,31 +1,31 @@
 [
-    {
-      "id": "01",
-      "name": "Web Development"
-    },
-    {
-      "id": "02",
-      "name": "Data Science"
-    },
-    {
-      "id": "03",
-      "name": "Cybersecurity"
-    },
-    {
-      "id": "04",
-      "name": "Machine Learning"
-    },
-    {
-      "id": "05",
-      "name": "Game Development"
-    },
-    {
-      "id": "06",
-      "name": "Mobile Development"
-    },
-    {
-      "id": "07",
-      "name": "All Courses"
-    }
-    
-  ]
+  {
+    "id": "01",
+    "name": "Web Development"
+  },
+  {
+    "id": "02",
+    "name": "Data Science"
+  },
+  {
+    "id": "03",
+    "name": "Cybersecurity"
+  },
+  {
+    "id": "04",
+    "name": "Machine Learning"
+  },
+  {
+    "id": "05",
+    "name": "Game Development"
+  },
+  {
+    "id": "06",
+    "name": "Mobile Development"
+  },
+  {
+    "id": "07",
+    "name": "All Courses"
+  }
+  
+]
