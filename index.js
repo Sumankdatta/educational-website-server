@@ -15,3 +15,9 @@ app.get('/', (req, res) => {
 app.get('/course-categories', (req, res) => {
   res.send(categories)
 });
+
+app.get('/coursedetails/:id', (req, res) => {
+  const id = req.params.id;
+  const selectedCourse = news.find(n => n._id === id);
+  res.send(selectedCourse)
+});
